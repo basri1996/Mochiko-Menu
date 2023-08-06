@@ -20,11 +20,12 @@ function App() {
       <Header isEnglish={isEnglish} setIsEnglish={setIsEnglish} />
       <Div>
         {isEnglish ?
-      MochikoProductGeo.map((item) => (
+      MochikoProductEng.map((item) => (
         <Card data={item} />
       ))
       :
-      MochikoProductEng.map((item) => (
+      
+      MochikoProductGeo.map((item) => (
         <Card data={item} />
       ))
       }

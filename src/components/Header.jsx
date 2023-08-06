@@ -9,7 +9,7 @@ function Header ({isEnglish,setIsEnglish}){
         <MainDiv>
             <Logo src={logo} alt="mochiko"/>
           <MenuText>Menu</MenuText>
-          <Language src={isEnglish ? english : georgia} alt="language" onClick={()=>setIsEnglish(!isEnglish)}/>
+          <Language src={isEnglish ? georgia : english } alt="language" onClick={()=>setIsEnglish(!isEnglish)}/>
         </MainDiv>
     )
 
