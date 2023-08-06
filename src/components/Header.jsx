@@ -35,17 +35,12 @@ const MainDiv=styled.div`
 const Logo=styled.img`
     width:auto;
     height:75px;
-    margin-left:15px;
+    margin-left:6px;
 `
 
 const MenuText=styled.h1`
     font-size:35px;
-    background: linear-gradient(315deg, #e84393 60%, #000000 74%);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-color:white;
-    font-family: 'Borel';
+    color:black;
+    font-family: 'Sriracha'; 
     font-weight:400;
-    margin-top:23px;
-
 `
