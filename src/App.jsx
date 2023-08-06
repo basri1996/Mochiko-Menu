@@ -1,15 +1,27 @@
 import styled from "styled-components";
 import GlobalStyles from "./GlobalStyles";
 import { Helmet } from "react-helmet";
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Card from "./components/Card";
+import { MochikoProductGeo } from "./Data";
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <Helmet></Helmet>
-      <Header/>
-      <Div></Div>
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Borel&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
+      <Header />
+      <Div>
+      {MochikoProductGeo.map((item) => (
+        <Card data={item} />
+      ))}
+
+     </Div>
     </>
   );
 }
@@ -17,6 +29,9 @@ function App() {
 export default App;
 
 const Div = styled.div`
-  width: 100px;
-  height: 100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin-top:30px;
 `;

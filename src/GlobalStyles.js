@@ -8,8 +8,8 @@ const GlobalStyles = createGlobalStyle`
 };
 
 body{  
-    height:100vh;
-    background: linear-gradient(to bottom, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    
+    background: linear-gradient(to bottom,rgba(223, 159, 247, 0.8) 23%,rgba(255, 215, 185, 0.91) 93%);
 }
 `;
 
