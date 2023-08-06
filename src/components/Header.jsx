@@ -16,6 +16,9 @@ const MainDiv=styled.div`
     height:75px;
     width:100%;
     background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 `
 
 const Logo=styled.img`
