@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Card from "./components/Card";
 import { MochikoProductGeo ,MochikoProductEng } from "./Data";
 import { useState } from "react";
-
+import Footer from "./components/Footer";
 function App() {
   const [isEnglish , setIsEnglish]=useState(false)
   return (
@@ -30,6 +30,7 @@ function App() {
       ))
       }
      </Div>
+     <Footer/>
     </>
   );
 }
