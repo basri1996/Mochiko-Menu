@@ -15,33 +15,36 @@ function Card({ data }) {
 export default Card;
 
 const MainDiv = styled.div`
-  width: 80%;
+  width: 87%;
   background-color: white;
   display: flex;
   border-radius: 5px;
   margin-bottom: 15px;
-  box-shadow: 2px 2px 3px;
+  box-shadow: 5px 5px 10px gray;
 `;
-const DetailDiv = styled.div``;
+const DetailDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:7px;
+`;
 const Title = styled.h1`
-  font-size: 15px;
-  margin: 7px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: bold;
 `;
 const Ingredients = styled.h3`
   font-size: 12px;
-  margin: 7px;
   font-weight: 700;
+  opacity:0.85;
 `;
 const Photo = styled.img`
   width: 120px;
   height: 120px;
   border-radius: 5px;
-  margin: 7px;
+  margin:7px;
 `;
 const Price = styled.h3`
   font-size: 20px;
-  margin: 7px;
   font-weight: 700;
-  padding-top:7px;
+  
 `;
