@@ -3,9 +3,11 @@ import GlobalStyles from "./GlobalStyles";
 import { Helmet } from "react-helmet";
 import Header from "./components/Header";
 import Card from "./components/Card";
-import { MochikoProductGeo } from "./Data";
+import { MochikoProductGeo ,MochikoProductEng } from "./Data";
+import { useState } from "react";
 
 function App() {
+  const [isEnglish , setIsEnglish]=useState(false)
   return (
     <>
       <GlobalStyles />
@@ -15,12 +17,17 @@ function App() {
           rel="stylesheet"
         />
       </Helmet>
-      <Header />
+      <Header isEnglish={isEnglish} setIsEnglish={setIsEnglish} />
       <Div>
-      {MochikoProductGeo.map((item) => (
+        {isEnglish ?
+      MochikoProductGeo.map((item) => (
         <Card data={item} />
-      ))}
-
+      ))
+      :
+      MochikoProductEng.map((item) => (
+        <Card data={item} />
+      ))
+      }
      </Div>
     </>
   );

@@ -1,10 +1,15 @@
 import logo from "../assets/მოჩიკო-02.jpg"
 import styled from "styled-components";
-function Header (){
+import georgia from "../assets/georgia.png"
+import english from "../assets/united-kingdom.png"
+
+function Header ({isEnglish,setIsEnglish}){
+    
     return(
         <MainDiv>
             <Logo src={logo} alt="mochiko"/>
           <MenuText>Menu</MenuText>
+          <Language src={isEnglish ? english : georgia} alt="language" onClick={()=>setIsEnglish(!isEnglish)}/>
         </MainDiv>
     )
 
@@ -12,7 +17,11 @@ function Header (){
 
 export default Header
 
-
+const Language=styled.img`
+    width:30px;
+    height:30px;
+    margin-right:15px;
+`
 const MainDiv=styled.div`
     height:75px;
     width:100%;
@@ -35,7 +44,6 @@ const MenuText=styled.h1`
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         background-color:white;
-    margin-right:75px;
     font-family: 'Borel';
     font-weight:400;
     margin-top:23px;
