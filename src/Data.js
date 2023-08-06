@@ -98,31 +98,31 @@ export const MochikoProductGeo = [
 
 export const MochikoProductEng = [
   {
-    name: "Pista ice-cream mochi ",
-    ingredients: "Homemade pista ice-cream, sticky rice dough",
+    name: "Mochi with pistachio",
+    ingredients: "Homemade pistachio ice-cream, sticky rice dough",
     price: "3,50 Gel",
     img: pista,
   },
   {
-    name: "Mango ice-cream mochi",
+    name: "Mochi with mango",
     ingredients: "Homemade mango ice-cream, sticky rice dough",
     price: "3,50 Gel",
     img: orange,
   },
   {
-    name: "Strawberry ice-cream mochi",
+    name: "Mochi with strawberry",
     ingredients: "Homemade strawberry ice-cream, sticky rice dough",
     price: "3,50 Gel",
     img: alubali,
   },
   {
-    name: "Blueberry ice-cream mochi",
+    name: "Mochi with Blueberry",
     ingredients: "Homemade blueberry ice-cream, sticky rice dough",
     price: "3,50 Gel",
     img: mocvi,
   },
   {
-    name: "Caramel ice-cream mochi",
+    name: "Mochi with caramel",
     ingredients: "Homemade caramel ice-cream, sticky rice dough",
     price: "3,50 Gel",
     img: caramel,
@@ -134,13 +134,13 @@ export const MochikoProductEng = [
     img: alubali,
   },
   {
-    name: "Orange ice-cream mochi",
+    name: "Mochi with orange ",
     ingredients: "Homemade orange ice-cream, sticky rice dough",
     price: "3,50 Gel",
     img: orange,
   },
   {
-    name: "Cherry ice-cream mochi",
+    name: "Mochi with cherry",
     ingredients: "Homemade cherry ice-cream, sticky rice dough",
     price: "3,50 Gel",
     img: alubali,
@@ -152,13 +152,13 @@ export const MochikoProductEng = [
     img: caramel,
   },
   {
-    name: "Mochi with black-chocolate ice-cream ",
+    name: "Mochi with black-chocolate",
     ingredients: "Homemade black-chocolate ice-cream, nuts, sticky rice dough",
     price: "3,50 Gel",
     img: blackChok,
   },
   {
-    name: "Mochi with vanilla ice-cream",
+    name: "Mochi with vanilla",
     ingredients: "Homemade vanilaa ice-cream, sticky rice dough",
     price: "3,50 Gel",
     img: vanili,
