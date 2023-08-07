@@ -29,6 +29,7 @@ const Text =styled.h1`
 font-family: 'Sriracha'; 
     font-weight:400;
     margin-top:15px;
+    font-size:25px;
 `
 const Div = styled.div`
   display: flex;
