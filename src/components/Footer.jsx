@@ -2,10 +2,10 @@ import styled from "styled-components";
 import insta from "../assets/icons8-instagram-48.png";
 import facebook from "../assets/icons8-facebook-48.png";
 import tiktok from "../assets/icons8-tiktok-48.png";
-function Footer({isEnglish}) {
+function Footer() {
   return (
     <MainDiv>
-        <Text >{isEnglish ? "Made in Georgia" : "დამზადებულია საქართველოში"}</Text>
+        
       <Div>
         <Facebook
           href="https://www.facebook.com/profile.php?id=100092645889060"
@@ -25,18 +25,13 @@ function Footer({isEnglish}) {
 }
 
 export default Footer;
-const Text=styled.h1`
-    font-size:18px;
-    color:black;
-    font-family: 'Sriracha'; 
-    font-weight:900;
-    margin-top:8px;
-`
+
 const Div = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap:3px;
+  margin-top:40px;
 `;
 
 const MainDiv = styled.div`

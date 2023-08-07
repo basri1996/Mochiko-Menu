@@ -1,6 +1,6 @@
 import pista from "./assets/pista.jpg";
 import alubali from "./assets/alubali.jpg";
-import orange from "./assets/orange.jpg";
+import orange from "./assets/mango.jpg";
 import blackChok from "./assets/black-chocolade.jpg";
 import raffaelo from "./assets/raffaelo.jpg";
 import vanili from "./assets/vanili.jpg";
