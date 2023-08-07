@@ -5,7 +5,7 @@ import tiktok from "../assets/icons8-tiktok-48.png";
 function Footer() {
   return (
     <MainDiv>
-        
+        <Text>Follow us</Text>
       <Div>
         <Facebook
           href="https://www.facebook.com/profile.php?id=100092645889060"
@@ -25,17 +25,21 @@ function Footer() {
 }
 
 export default Footer;
-
+const Text =styled.h1`
+font-family: 'Sriracha'; 
+    font-weight:400;
+    margin-top:15px;
+`
 const Div = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap:3px;
-  margin-top:40px;
+  
 `;
 
 const MainDiv = styled.div`
-  height: 150px;
+  height: 180px;
   width: 100%;
   display: flex;
   gap:15px;
